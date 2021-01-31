@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		665CBDA025C75C0C004F80EA /* splashScreenAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 665CBD9F25C75C0C004F80EA /* splashScreenAnimation.gif */; };
 		66D12E2125C57D18008E3460 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D12E2025C57D18008E3460 /* AppDelegate.swift */; };
 		66D12E2325C57D18008E3460 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D12E2225C57D18008E3460 /* SceneDelegate.swift */; };
 		66D12E2825C57D18008E3460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D12E2625C57D18008E3460 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		665CBD9F25C75C0C004F80EA /* splashScreenAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = splashScreenAnimation.gif; sourceTree = "<group>"; };
 		66D12E1D25C57D18008E3460 /* apiPostHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = apiPostHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D12E2025C57D18008E3460 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66D12E2225C57D18008E3460 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,11 +50,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		665CBD9D25C75BAC004F80EA /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				665CBD9F25C75C0C004F80EA /* splashScreenAnimation.gif */,
+			);
+			name = Gif;
+			path = apiPostHW/Gif;
+			sourceTree = "<group>";
+		};
 		66D12E1425C57D18008E3460 = {
 			isa = PBXGroup;
 			children = (
 				66D12E1F25C57D18008E3460 /* apiPostHW */,
 				66D12E1E25C57D18008E3460 /* Products */,
+				665CBD9D25C75BAC004F80EA /* Gif */,
 				C00EB23D3DF2064852A65903 /* Pods */,
 				CEF96E40BD8CAF7963111820 /* Frameworks */,
 			);
@@ -183,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665CBDA025C75C0C004F80EA /* splashScreenAnimation.gif in Resources */,
 				66D12E2D25C57D1B008E3460 /* LaunchScreen.storyboard in Resources */,
 				66D12E2A25C57D1B008E3460 /* Assets.xcassets in Resources */,
 				66D12E2825C57D18008E3460 /* Main.storyboard in Resources */,
